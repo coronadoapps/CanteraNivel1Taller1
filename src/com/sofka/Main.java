@@ -16,7 +16,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         do {
-            limpiarPantalla();
+            limpiarPantalla(); //Metodo limpiar pantalla
             menu();
             opcion = capturarOpcion();
             limpiarPantalla();
